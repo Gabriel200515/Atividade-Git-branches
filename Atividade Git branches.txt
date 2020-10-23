@@ -1,0 +1,30 @@
+https://github.com/Gabriel200515/Atividade-Git-branches
+
+git init 
+git add 
+git commit -m "AtividadeC.c foi adicionado"
+git remote add origin
+fit push -u origin
+git branch
+git branch Desenvolvimento 
+git branch
+git add 
+git commit -m "AtividadeC.c foi modificado"
+gith push origin Desenvolvimento
+git add 
+git commit -m "AtividadeC.c foi modificado novamente"
+git push origin Desenvolvimento
+
+Repositórios
+
+Analisar, no GitHub,o status da branch master e da branch Desenvolvimento.Qual a diferença entre elas?
+
+R: A branch master não foi atualizado diretamente,ficando com apenas 1 commit,e a branch "desenvolvimento" estava com 2 commits.
+
+Fazer o merge entre as branches via GitHub.Explique os passos utilizados para fazer o merge. Houve conflito? se sim,como vocé gerenciou isso?
+
+R:Para pode mesclar (fazer o merge) e o pull request:
+>Clicar em "Compare & Pull Request";
+>O GitHub verifica se é possível fazer merge ou não, para mim, funcionou automaticamente;
+>Para finalizar basta clicar em "Create pull request".
+>O pull request será feito para o branch master, depois é só acessar master e aceitar o pull request.
